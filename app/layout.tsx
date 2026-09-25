@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="en" data-scroll-behavior="smooth"><body><AppProvider>{children}</AppProvider>
-  
+
+    <script src="https://cdn.zanderio.ai/widget/loader.js" data-id="wdg_rlPsMsOxKr7DZNOnSgBjplrQ" defer></script>
   </body></html>;
 }
